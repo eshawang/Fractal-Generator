@@ -10,8 +10,8 @@ def mandelbrot(C):
 	return NaN
 
 def plot():
-	X = arange(-2, 0.5, 0.005)
-	Y = arange(-1, 1, 0.005)
+	X = arange(-2, 0.5, 0.002)
+	Y = arange(-1, 1, 0.002)
 	M = zeros((len(Y), len(X)))
 
 	for x_iter, x in enumerate(X):
